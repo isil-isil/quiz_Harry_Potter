@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Harry Potter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="main">
+      <header class="header">
+        <a href="#" class="logo">Isil</a>
+
+        <nav class="navbar">
+          <a href="#" class="active">Accueil</a>
+          <!-- <a href="#">À propos</a> -->
+          <!-- <a href="#">Services</a> -->
+          <a href="#">Contact</a>
+        </nav>
+      </header>
+
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-box">
+            <h1>Quiz Harry Potter</h1>
+            <div class="quiz-header">
+              <span>Testez vos connaissances !</span>
+              <span class="header-score">Score: 0 / 5</span>
+            </div>
+
+            <h2 class="question-text">Quel est le prénom de Harry Potter ?</h2>
+
+            <div class="option-list">
+              <div class="option">
+                <span>A. Harry</span>
+              </div>
+              <div class="option">
+                <span>B. Potter</span>
+              </div>
+              <div class="option">
+                <span>C. Rogue</span>
+              </div>
+              <div class="option">
+                <span>D. Malefoy</span>
+              </div>
+            </div>
+
+            <div class="quiz-footer">
+              <span class="question-total">Question 1 sur 5</span>
+              <button class="next-btn">Suite</button>
+            </div>
+          </div>
+
+          <div class="result-box">
+            <h2>Résultat !</h2>
+            <div class="percentage-container">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+
+              <span class="score-text">Votre score est de 0 sur 5</span>
+            </div>
+
+            <div class="buttons">
+              <button class="tryAgain-btn">Réessayer</button>
+              <button class="goHome-btn">Retourner à l'accueil</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="home">
+          <div class="home-content">
+            <h1>Quiz Harry Potter</h1>
+            <p>
+              Entrez dans le monde magique de Harry Potter, un univers rempli de
+              mystères, de magie et d'aventures extraordinaires.
+            </p>
+            <button class="start-btn">Commencer</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="popup-info">
+      <h2>Guide</h2>
+      <span class="info"
+        >Que vous soyez un sorcier chevronné ou un moldu curieux, ce quiz vous
+        plongera dans l'univers captivant de Poudlard.</span
+      >
+      <span class="info"> Prêt à tester vos connaissances magiques ? </span>
+      <span class="info">
+        Prenez votre baguette, faites un vœu et commencez le quiz ! Lumos
+        !</span
+      >
+
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Quitter</button>
+        <a href="#" class="info-btn continue-btn">Continuer</a>
+      </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
